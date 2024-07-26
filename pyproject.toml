@@ -1,0 +1,25 @@
+[build-system]
+requires = ["flit_core >=3.2"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "conv_img"
+authors = [{name = "Maurice Mengel", email = "mauricemengel@gmail.com"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)"]
+dynamic = ["version", "description"]
+keywords = ["image", "Pillow", "resize", "convert"]
+dependencies = [
+	"flit",
+	"pillow"
+]
+[project.optional-dependencies]
+test = [
+	"tomli >= 2.0.0", # only required for python_version < 3.11
+    "pytest >=2.7.3",
+]
+
+[project.scripts]
+conv_img = 'conv_img:conv_img'
+
