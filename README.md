@@ -1,8 +1,13 @@
-conv_img - Yet another CLI utility to batch convert image files.
+#conv_img - Yet another CLI utility to batch convert image files.
 
-This one uses Python's Pillow and preserves directories
+This one depends on Python's Pillow. and preserves directories
 
+```
 USAGE:
-	conv_img -f **/*.tif 
+	conv_img    # shows what would be done (using defaults)
+	conv_img -a # actually do it 
+	conv_img -f **/*.jpg # change the filemask how files discovered
+	conv_img -t .png     # change destination file format
+	conv_img -m 7000     # change the max size of longest side to which image is reduced 
+```
 
-Set the 
