@@ -4,8 +4,8 @@
 This one depends on Pillow in Python. 
 
 Unlike other tools, conv_img preserves parts of the path, so we're not converting
-images in place (in the same directory as orginal). Also note that we're acting
-on current directory:
+images in place (in the same directory as orginal) by default. Also note that we're 
+acting on current directory:
 ```
 	conv_img DIR
 	# source/tiff/example.tif -> DIR/source/tiff/example.jpg
@@ -25,5 +25,6 @@ on current directory:
 	conv_img -f **/*.jpg DIR # the filemask for identifying image
 	conv_img -t .png DIR     # destination file format; note the period
 	conv_img -m 7000 DIR     # max size of longest side in pixels that bigger images are reduced
+	conv_img %				 # put new image in original folder (convert in place)
 ```
 
