@@ -4,7 +4,9 @@
 This one depends on Pillow in Python. 
 
 Unlike other tools, conv_img preserves directories:
+```
 	source/tiff/example.tif -> JPG/source/tiff/example.jpg
+```
 
 Acts on current directory.
 
