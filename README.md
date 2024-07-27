@@ -3,7 +3,8 @@
 
 This one depends on Pillow in Python. 
 
-Unlike other tools, conv_img preserves directories:
+Unlike other tools, conv_img preserves parts of the path, so we're not converting
+images in place (in the same directory as orginal):
 ```
 	conv_img DIR
 	# source/tiff/example.tif -> DIR/source/tiff/example.jpg
