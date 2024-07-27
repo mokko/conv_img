@@ -1,4 +1,5 @@
-# conv_img - Yet another CLI utility to batch convert image files.
+# conv_img 
+## Yet another CLI utility to batch convert image files.
 
 This one depends on Python's Pillow. and preserves directories
 
