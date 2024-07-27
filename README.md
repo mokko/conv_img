@@ -12,8 +12,8 @@ Acts on current directory.
 USAGE:
 	conv_img    # shows what would be done (using defaults)
 	conv_img -a # actually do it 
-	conv_img -f **/*.jpg # change the filemask for identifying image
-	conv_img -t .png     # change destination file format; note the period
-	conv_img -m 7000     # change the max size of longest side in pixels to which image is reduced 
+	conv_img -f **/*.jpg # the filemask for identifying image
+	conv_img -t .png     # destination file format; note the period
+	conv_img -m 7000     # max size of longest side in pixels that bigger images are reduced
 ```
 
