@@ -10,6 +10,12 @@ on current directory:
 	conv_img DIR
 	# source/tiff/example.tif -> DIR/source/tiff/example.jpg
 ```
+## Install
+```
+	git clone https://github.com/mokko/convert_img.git
+	cd convert_img
+	pip install .
+```
 
 
 ## Usage
@@ -21,9 +27,3 @@ on current directory:
 	conv_img -m 7000 DIR     # max size of longest side in pixels that bigger images are reduced
 ```
 
-## Install
-```
-	git clone https://github.com/mokko/convert_img.git
-	cd convert_img
-	pip install .
-```
