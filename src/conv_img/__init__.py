@@ -3,6 +3,7 @@
 __version__ = "0.0.1"  # inital version
 
 import argparse
+from conv_img.conv_img import main
 
 
 def conv_img():

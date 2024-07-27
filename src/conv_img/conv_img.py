@@ -35,12 +35,12 @@ def main(
     max_size: int,
 ) -> None:
     if limit:
-        print(f"*Using limit {limit}")
+        print(f"limit: {limit}")
     if act:
-        print("*Act is True")
-    print(f"Filemask {filemask}")
-    print(f"target suffix {target_suffix}")
-    print(f"max_size {max_size}")
+        print("act: True")
+    print(f"filemask: {filemask}")
+    print(f"target suffix: {target_suffix}'")
+    print(f"max_size: {max_size}")
 
     for c, p in enumerate(Path(".").glob(filemask), start=1):
         new_p = convert_path(
