@@ -1,8 +1,12 @@
 # conv_img 
-## Yet another CLI utility to batch convert image files.
+## Yet another CLI utility to batch convert image files
 
-This one depends on Python's Pillow. and preserves directories
+This one depends on Pillow in Python. 
 
+Unlike other tools, conv_img preserves directories:
+	source/tiff/example.tif -> JPG/source/tiff/example.jpg
+
+Parameters
 ```
 USAGE:
 	conv_img    # shows what would be done (using defaults)
