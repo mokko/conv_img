@@ -56,7 +56,7 @@ def arg():
     parser.add_argument(
         "-v",
         "--verbose",
-        help="for more verbose output",
+        help="more verbose output",
         action="store_true",
     )
 

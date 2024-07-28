@@ -36,7 +36,7 @@ options:
                         max size of pixel, defaults to 6000 pixel for the longest size
   -t TARGET_SUFFIX, --target_suffix TARGET_SUFFIX
                         target image format, defaults to '.jpg'
-  -v, --verbose         for more verbose output
+  -v, --verbose         more verbose output
 ```
 
 ## More Examples
