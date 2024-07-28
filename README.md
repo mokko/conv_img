@@ -20,11 +20,31 @@ acting on current directory:
 
 ## Usage
 ```
+conv_img [-h] [-a] [-f FILEMASK] [-l LIMIT] [-m MAX_SIZE] [-t TARGET_SUFFIX] [-v] dest_dir
+
+positional arguments:
+  dest_dir              destination directory to write to
+
+options:
+  -h, --help            show this help message and exit
+  -a, --act             carry out conversion instead of just showing what would have been
+  -f FILEMASK, --filemask FILEMASK
+                        the filemask that identifies which images will be converted, defaults to '**/*.tif'
+  -l LIMIT, --limit LIMIT
+                        number of images after which script breaks off, defaults to -1 (no limit)
+  -m MAX_SIZE, --max_size MAX_SIZE
+                        max size of pixel, defaults to 6000 pixel for the longest size
+  -t TARGET_SUFFIX, --target_suffix TARGET_SUFFIX
+                        target image format, defaults to '.jpg'
+  -v, --verbose         for more verbose output
+```
+
+## More Examples
+```
 	conv_img DIR             # shows what would be done (using defaults)
 	conv_img -a DIR          # actually do it 
 	conv_img -f **/*.jpg DIR # the filemask for identifying image
 	conv_img -t .png DIR     # destination file format; note the period
 	conv_img -m 7000 DIR     # max size of longest side in pixels that bigger images are reduced
-	conv_img %				 # put new image in original folder (convert in place)
+	conv_img %               # put new image in original folder (convert in place)
 ```
-

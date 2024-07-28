@@ -1,4 +1,4 @@
-"""Yet another CLI util to convert images"""
+"""Yet another CLI utility to batch convert image files"""
 
 __version__ = "0.0.2"  # move arguments from __init__ to script
 
