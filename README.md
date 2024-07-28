@@ -41,7 +41,7 @@ options:
 
 ## More Examples
 ```
-conv_img DIR             # shows what would be done (using defaults)
+conv_img DIR             # doesn't do any conversion yet, just shows what would be done (using defaults)
 conv_img -a DIR          # actually do it 
 conv_img -f **/*.jpg DIR # the filemask for identifying image
 conv_img -t .png DIR     # destination file format; note the period
