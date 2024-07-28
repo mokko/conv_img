@@ -8,7 +8,7 @@ images in place (in the same directory as orginal) by default. Also note that we
 acting on current directory:
 ```
 conv_img DIR
-# source/tiff/example.tif -> DIR/source/tiff/example.jpg
+# source/example.tif -> DIR/source/example.jpg
 ```
 ## Install
 ```
