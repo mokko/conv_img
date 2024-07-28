@@ -12,8 +12,8 @@ conv_img DIR
 ```
 ## Install
 ```
-git clone https://github.com/mokko/convert_img.git
-cd convert_img
+git clone https://github.com/mokko/conv_img.git
+cd conv_img
 pip install .
 ```
 
