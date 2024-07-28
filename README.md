@@ -41,10 +41,10 @@ options:
 
 ## More Examples
 ```
-conv_img DIR             # doesn't do any conversion yet, just shows what would be done (using defaults)
-conv_img -a DIR          # actually do it 
+conv_img DIR             # doesn't do any conversion yet, just show what would be done (using defaults)
+conv_img -a DIR          # actually do it (using defaults) 
 conv_img -f **/*.jpg DIR # the filemask for identifying image
 conv_img -t .png DIR     # destination file format; note the period
 conv_img -m 7000 DIR     # max size of longest side in pixels that bigger images are reduced
-conv_img %               # put new image in original folder (convert in place)
+conv_img %               # put new image in original folder (aka convert in-place)
 ```
